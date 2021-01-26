@@ -37,17 +37,17 @@
   opacity: 1;
   transition: 0.2s;
   transform-box: fill-box;
-  animation: ray-top 0.5s ease 2 both; }
+  animation: ray-top 0.2s ease both; }
 .animate:hover #bulb-ray-2 {
   opacity: 1;
   transition: 0.2s;
   transform-box: fill-box;
-  animation: ray-diag 0.5s ease 2 both; }
+  animation: ray-diag 0.2s ease both; }
 .animate:hover #bulb-ray-3 {
   opacity: 1;
   transition: 0.2s;
   transform-box: fill-box;
-  animation: ray-left 0.5s ease 2 both; }
+  animation: ray-left 0.2s ease both; }
 .animate:hover #jigsaw-red {
   transform-box: fill-box;
   transform-origin: top left;
