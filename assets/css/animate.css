@@ -1,0 +1,140 @@
+.animate #bulb-ray-1 {
+  opacity: 0;
+  transition: 0.1s; }
+.animate #bulb-ray-2 {
+  opacity: 0;
+  transition: 0.1s; }
+.animate #bulb-ray-3 {
+  opacity: 0;
+  transition: 0.1s; }
+.animate #jigsaw-red {
+  transform-box: fill-box;
+  transform-origin: top left;
+  transform: rotate(21.5deg) translateX(23px);
+  transform: translateX(0) rotate(0deg);
+  transition: 0.6s; }
+.animate:hover #calendar #b-square-1 {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: bs-black 0.2s ease; }
+.animate:hover #calendar #b-square-2 {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: bs-black 0.2s ease 0.1s; }
+.animate:hover #calendar #b-square-3 {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: bs-black 0.2s ease 0.2s; }
+.animate:hover #calendar #b-square-4 {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: bs-black 0.2s ease 0.3s; }
+.animate:hover #calendar #b-square-5 {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: bs-black 0.2s ease 0.4s; }
+.animate:hover #bulb-ray-1 {
+  opacity: 1;
+  transition: 0.2s;
+  transform-box: fill-box;
+  animation: ray-top 0.5s ease 2 both; }
+.animate:hover #bulb-ray-2 {
+  opacity: 1;
+  transition: 0.2s;
+  transform-box: fill-box;
+  animation: ray-diag 0.5s ease 2 both; }
+.animate:hover #bulb-ray-3 {
+  opacity: 1;
+  transition: 0.2s;
+  transform-box: fill-box;
+  animation: ray-left 0.5s ease 2 both; }
+.animate:hover #jigsaw-red {
+  transform-box: fill-box;
+  transform-origin: top left;
+  transform: rotate(0);
+  transform: rotate(21.5deg) translateX(23px);
+  transition: 0.6s; }
+
+.img-thumbnail {
+  transition: .2s;
+}
+
+.img-thumbnail:hover {
+  padding: 0;
+  transition: 0.2s; }
+
+@keyframes bs-black {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(1); } }
+@keyframes insert-red {
+  0% {
+    transform: rotate(0); }
+  25% {
+    transform: rotate(21.5deg) translateX(23px); }
+  50% {
+    transform: rotate(21.5deg) translateX(23px); }
+  100% {
+    transform: translateX(0) rotate(0deg); } }
+@keyframes ray-top {
+  0% {
+    transform-origin: bottom center;
+    transform: scale(1); }
+  25% {
+    transform-origin: top center;
+    transform: scale(1); }
+  50% {
+    transform-origin: top center;
+    transform: scale(0); }
+  75% {
+    transform-origin: bottom center;
+    transform: scale(0); }
+  100% {
+    transform-origin: bottom center;
+    transform: scale(1); } }
+@keyframes ray-diag {
+  0% {
+    transform-origin: bottom right;
+    transform: scale(1); }
+  25% {
+    transform-origin: top left;
+    transform: scale(1); }
+  50% {
+    transform-origin: top left;
+    transform: scale(0); }
+  75% {
+    transform-origin: bottom right;
+    transform: scale(0); }
+  100% {
+    transform-origin: bottom right;
+    transform: scale(1); } }
+@keyframes ray-left {
+  0% {
+    transform-origin: right center;
+    transform: scale(1); }
+  25% {
+    transform-origin: right center;
+    transform: scale(1); }
+  50% {
+    transform-origin: left center;
+    transform: scale(0); }
+  75% {
+    transform-origin: right center;
+    transform: scale(0); }
+  100% {
+    transform-origin: right center;
+    transform: scale(1); } }
+@keyframes slide-top {
+  0% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(-100px); } }
+
+@keyframes blinkingText {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+/*# sourceMappingURL=index.css.map */

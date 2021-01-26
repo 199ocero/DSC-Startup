@@ -1,6 +1,6 @@
 .blinking {
+  animation: blinkingText alternate 0.3s infinite;
   font-size: 35px;
-  animation: blinkingText 1.2s infinite;
 }
 
 .cd-words-wrapper {
@@ -69,8 +69,3 @@
 .noSelect {
   pointer-events: none;
 }
-
-.btn-green:hover {
-  color: #226E93;
-}
-

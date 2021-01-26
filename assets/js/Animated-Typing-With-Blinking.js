@@ -38,7 +38,7 @@ jQuery(document).ready(function($) {
                 }, barWaiting)
             } else if (headline.hasClass("clip")) {
                 var spanWrapper = headline.find(".cd-words-wrapper"),
-                    newWidth = spanWrapper.width() + 10;
+                    newWidth = spanWrapper.width();
                 spanWrapper.css("width", newWidth)
             } else if (!headline.hasClass("type")) {
                 var words = headline.find(".cd-words-wrapper b"),
@@ -100,7 +100,7 @@ jQuery(document).ready(function($) {
             $word.addClass("is-visible").removeClass("is-hidden")
         } else if ($word.parents(".cd-headline").hasClass("clip")) {
             $word.parents(".cd-words-wrapper").animate({
-                width: $word.width() + 10
+                width: $word.width()
             }, revealDuration, function() {
                 setTimeout(function() {
                     hideWord($word)
@@ -154,4 +154,3 @@ jQuery(document).ready(function($) {
         $newWord.removeClass("is-hidden").addClass("is-visible")
     }
 });
-

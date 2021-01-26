@@ -297,3 +297,11 @@ body.drawer-open > div.drawer-fade {
   background-color: #133749;
 }
 
+nav .btn {
+  background: white;
+}
+
+nav.open .btn {
+  background: none;
+  transition: .3s;
+}
