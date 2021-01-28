@@ -1,3 +1,7 @@
+html {
+  scroll-snap-type: y proximity;
+}
+
 h1 {
   color: #226E93;
 }
@@ -24,6 +28,22 @@ h1 {
   border: 1px solid #226E93;
 }
 
+.img-thumbnail {
+  height: 150px;
+  width: 150px;
+}
+
+@media (max-width:767px) {
+  .sec2 {
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .splash {
+    height: 100vh;
+  }
+}
 @media (min-width:768px) {
   .col-md-7 {
     -ms-flex: 0 0 58.333333%;
@@ -89,3 +109,9 @@ a:hover {
   }
 }
 
+@media (min-width:768px) {
+  section.snap-in {
+    /* height: 100vh; */
+    scroll-snap-align: start;
+  }
+}
